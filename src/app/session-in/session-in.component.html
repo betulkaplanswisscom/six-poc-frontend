@@ -1,1 +1,15 @@
-<p>session-in works!</p>
+<div class="session-in">
+  <div class="header">
+    <div class="title">{{ "Session In" }}</div>
+  </div>
+  <div class="content">
+    <div class="message">{{ sessionMessage }}</div>
+    <div class="last-access">
+      {{ "Last Access" }}: <strong>{{ lastAccessDate }}</strong>
+    </div>
+  </div>
+  <div class="actions">
+    <button (click)="onAccept()">{{ "Accept" }}</button>
+    <button (click)="onReturn()">{{ "Return" }}</button>
+  </div>
+</div>

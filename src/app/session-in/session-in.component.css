@@ -1,0 +1,70 @@
+.session-in {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.content {
+  padding: 20px 10px;
+}
+
+.message {
+  margin-bottom: 15px;
+}
+
+.last-access {
+  margin-top: 10px;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 8px 15px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    margin: 10px 0;
+  }
+}
